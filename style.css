@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FEFAE0;
 }
@@ -15,6 +21,7 @@ button {
     font-family: "Courier New", sans-serif;
     font-weight: lighter;
     font-size: 36px;
+    margin: 100px;
 }
 
 .pho {
